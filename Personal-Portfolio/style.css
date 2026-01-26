@@ -1,0 +1,172 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border: 2px solid #ddd;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section#hero {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border: 2px solid #ddd;
+            text-align: center;
+        }
+
+        div#main-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+
+        div#main-content>section,
+        div#main-content>div {
+            flex: 1;
+            width: 0;
+        }
+
+        section#projects {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border: 2px solid #ddd;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px
+        }
+
+        section#projects ul {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        div#projects-box {
+            background-color: #f2f2f2;
+            padding: 0 20px;
+        }
+
+        div#projects-box ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        div#projects-box ul li {
+            list-style: none;
+            background-color: #f2f2f2;
+            padding: 10px;
+            border: 2px solid #ddd;
+        }
+
+        div#projects-box ul li a {
+            display: block;
+
+            text-decoration: none;
+            color: #333;
+            text-align: center;
+        }
+
+        div#works-box {
+            display: flex;
+            flex-direction: column;
+            margin: 20px 0;
+        }
+
+        div#works-box section {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border: 2px solid #ddd;
+            flex: 1;
+        }
+
+        div#works-box section h3 {
+            text-align: center;
+        }
+
+        div#works-box section p {
+            text-align: center;
+        }
+
+        section#education {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border: 2px solid #ddd;
+            margin: 20px 0;
+        }
+
+        div#teacher-box-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .teacher-box {
+            margin: 10px 0;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            flex: 1;
+        }
+
+        .teacher-box p {
+            font-style: italic;
+        }
+
+        .teacher-info {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        .teacher-info strong {
+            display: block;
+            color: #333;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin: 0 10px;
+            border: 2px solid #ddd;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background-color: pink;
+            }
+        }
