@@ -11,6 +11,7 @@ Project URL: https://roadmap.sh/projects/portfolio-website
 | Basic HTML Website | [View Code](./Basic%20HTML%20Website-ProjectRM) | ✅ Completed |
 | Single Page CV | [View Code](./Single-PageCV-ProjectRM) | ✅ Completed |
 | Personal Portfolio | [View Code](./Personal-Portfolio) | ✅ Completed |
+| Changelog Component | [View Code](./Changelog%20Component) | ✅ Completed |
 
 ---
 *Created by [Nue4k](https://github.com/Nue4k)*
