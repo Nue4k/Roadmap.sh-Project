@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+#author-1 img,
+#author-2 img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.author {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.author-info h3,
+p {
+    margin: 0;
+}
+
+#container-1 {
+    padding: 20px;
+    width: 50%;
+    margin: 20px 20px;
+}
+
+#card-1.testimonial-card section > p {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+}
