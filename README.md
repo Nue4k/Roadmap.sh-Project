@@ -10,7 +10,7 @@ This repository contains my solutions for various [Roadmap.sh](https://roadmap.s
 | Single Page CV | [View Code](./Single-PageCV-ProjectRM) | [Roadmap.sh](https://roadmap.sh/projects/single-page-cv) | ✅ Completed |
 | Personal Portfolio | [View Code](./Personal-Portfolio) | [Roadmap.sh](https://roadmap.sh/projects/portfolio-website) | ✅ Completed |
 | Changelog Component | [View Code](./Changelog%20Component) | [Roadmap.sh](https://roadmap.sh/projects/changelog-component) | ✅ Completed |
-| Testimonial Cards | [View Code](./Testimonial-Cards) | [Roadmap.sh](https://roadmap.sh/projects/testimonial-cards) | 🚧 In Progress |
+| Testimonial Cards | [View Code](./Testimonial-Cards) | [Roadmap.sh](https://roadmap.sh/projects/testimonial-cards) | ✅ Completed |
 
 ---
 *Created by [Nue4k](https://github.com/Nue4k)*
