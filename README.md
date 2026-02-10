@@ -13,6 +13,7 @@ This repository contains my solutions for various [Roadmap.sh](https://roadmap.s
 | Testimonial Cards   | [View Code](./Testimonial-Cards)                | [Roadmap.sh](https://roadmap.sh/projects/testimonial-cards)   | ✅ Completed |
 | Datepicker UI       | [View Code](./Datepicker-UI)                    | [Roadmap.sh](https://roadmap.sh/projects/datepicker-ui)       | ✅ Completed |
 | Accessible Form UI  | [View Code](./Accessible%20Form%20UI)           | [Roadmap.sh](https://roadmap.sh/projects/accessible-form-ui)  | ✅ Completed |
+| Tabs                | [View Code](./Tabs)                             | [Roadmap.sh](https://roadmap.sh/projects/simple-tabs)         | ✅ Completed |
 
 ---
 
