@@ -13,4 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById(target).classList.add('active');
         });
     });
+
+    const cookieContainer = document.querySelector('.cookieContainer');
+    const acceptButton = cookieContainer.querySelector('button');
+
+    //cookie consent//
+    acceptButton.addEventListener('click', () => {
+        cookieContainer.style.display = 'none';
+    });
 });

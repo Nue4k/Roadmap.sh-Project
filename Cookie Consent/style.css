@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #0f172a; /* Slate 900 */
-    color: #e2e8f0; /* Slate 200 */
+    background-color: #0f172a;
+    color: #e2e8f0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@ body {
 .tabs-container {
     width: 100%;
     max-width: 600px;
-    background-color: #1e293b; /* Slate 800 */
+    background-color: #1e293b;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -21,7 +21,7 @@ body {
 
 .tabsHeader {
     display: flex;
-    background-color: #0f172a; /* Slate 900 */
+    background-color: #0f172a;
 }
 
 .tabButton {
@@ -32,18 +32,18 @@ body {
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    color: #94a3b8; /* Slate 400 */
+    color: #94a3b8;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-align: center;
 }
 
 .tabButton:hover {
-    background-color: #334155; /* Slate 700 */
+    background-color: #334155;
     color: #e2e8f0;
 }
 
 .tabButton.active {
-    background-color: #3b82f6; /* Blue 500 */
+    background-color: #3b82f6;
     color: white;
 }
 
@@ -55,6 +55,43 @@ body {
 
 .tabContent.active {
     display: block;
+}
+
+.cookieContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px; 
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cookieContent p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #cbd5e1;
+}
+
+.cookieContent button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.cookieContent button:hover {
+    background-color: #2563eb;
 }
 
 @keyframes fadeIn {
