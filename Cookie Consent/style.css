@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #0f172a; /* Slate 900 */
+    color: #e2e8f0; /* Slate 200 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tabs-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #1e293b; /* Slate 800 */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.tabsHeader {
+    display: flex;
+    background-color: #0f172a; /* Slate 900 */
+}
+
+.tabButton {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #94a3b8; /* Slate 400 */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+.tabButton:hover {
+    background-color: #334155; /* Slate 700 */
+    color: #e2e8f0;
+}
+
+.tabButton.active {
+    background-color: #3b82f6; /* Blue 500 */
+    color: white;
+}
+
+.tabContent {
+    display: none;
+    padding: 20px;
+    animation: fadeIn 0.5s ease;
+}
+
+.tabContent.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
