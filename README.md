@@ -16,6 +16,7 @@ This repository contains my solutions for various [Roadmap.sh](https://roadmap.s
 | Tabs                | [View Code](./Tabs)                             | [Roadmap.sh](https://roadmap.sh/projects/simple-tabs)         | ✅ Completed |
 | Cookie Consent      | [View Code](./Cookie%20Consent)                 | [Roadmap.sh](https://roadmap.sh/projects/cookie-consent)      | ✅ Completed |
 | Restricted Textarea | [View Code](./Restricted%20Textarea)            | [Roadmap.sh](https://roadmap.sh/projects/restricted-textarea) | ✅ Completed |
+| Accordion           | [View Code](./Accordion)                        | [Roadmap.sh](https://roadmap.sh/projects/accordion)           | ✅ Completed |
 
 ---
 
