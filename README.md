@@ -17,6 +17,7 @@ This repository contains my solutions for various [Roadmap.sh](https://roadmap.s
 | Cookie Consent      | [View Code](./Frontend-Projects/Cookie%20Consent)                 | [Roadmap.sh](https://roadmap.sh/projects/cookie-consent)      | ✅ Completed |
 | Restricted Textarea | [View Code](./Frontend-Projects/Restricted%20Textarea)            | [Roadmap.sh](https://roadmap.sh/projects/restricted-textarea) | ✅ Completed |
 | Accordion           | [View Code](./Frontend-Projects/Accordion)                        | [Roadmap.sh](https://roadmap.sh/projects/accordion)           | ✅ Completed |
+| Flash Cards         | [View Code](./Frontend-Projects/Flashcard)                        | [Roadmap.sh](https://roadmap.sh/projects/flash-cards)         | ✅ Completed |
 
 ## Backend Projects
 
